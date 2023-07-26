@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Webdesign made simple</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./src/img/favicons/android-chrome-192x192.png">
+
+    <!-- --- AUTOREN-STYLESHEET --- -->
+    <link rel="stylesheet" type="text/css" href="src/css/styles.min.css">
+</head>
+<body>
+    <!-- --- NAVIGATIONSLEISTE --- -->
+        <nav class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <!-- DESKTOP-NAVIGATION -->
+                    <div class="col-6 desktop-navbar">
+                        <a href="main.html" class="header-logo"><img src="src/img/webdesign-logo.png" alt="Das Logo von Webdesign made simple"></a>
+                        <ul>
+                            <li class="active"><a href="main.html">Startseite</a></li>
+                            <li><a href="leistungen.html">Leistungen</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                            <li><a href="impressum.html">Impressum</a></li>
+                        </ul>
+                    </div>
+                    <!-- MOBILE-NAVIGATION -->
+                    <div class="col-6 mobile-navbar">
+                        <a href="main.html" class="header-logo"><img src="src/img/webdesign-logo.png" alt="Das Logo von Webdesign made simple"></a>
+                        <div class="mobile-navbar-dropdown clearfix">
+                            <div class="mobile-nav-button">
+                                <span>&equiv;</span>
+                            </div>
+                            <div class="mobile-navbar-content clearfix">
+                                <ul>
+                                    <li><a class="active" href="main.html">Startseite</a></li>
+                                    <li><a href="leistungen.html">Leistungen</a></li>
+                                    <li><a href="kontakt.html">Kontakt</a></li>
+                                    <li><a href="impressum.html">Impressum</a></li>
+                                </ul>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>                           
+        </nav>        
+        <!-- --- HEADER-BANNER --- -->
+        <header>
+            <div class="header-banner"></div>
+        </header>
+        <!-- --- NEWSLETTER-BEREICH --- -->
+        <section id="newsletter-field">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="nf-infotext"><strong>Melde dich jetzt für den Newsletter an und verpasse nichts mehr!</strong> Wir schicken dir nur interessante Informationen.</p>
+                    </div>
+                    <div class="col-2">
+                        <form class="nf-formular clearfix" action="main.html" method="POST">
+                            <label for="nf-email" class="screenreader" >Deine E-Mail-Adresse:</label>
+                            <input type="email" id="nf-email" placeholder="Deine E-Mail-Adresse" pattern="(?:[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*|'(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*')@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])">
+                            <button type="submit">Jetzt anmelden!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --- LEISTUNGEN-BEREICH --- -->
+        <section id="leistungen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="animatedLogo">                            
+                            <img class="rotatingLogo" src="./src/img/webdesign-logo-klein.png" alt="Das Logo von Webdesign made simple">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="intro-container">
+                            <h1>Webdesign made simple</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="leistungen-teaser-box leistungen-teaser-box-left">
+                            <h2>Leistung #1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <a href="./leistungen.html#leistung1">Ansehen</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="leistungen-teaser-box">
+                            <h2>Leistung #2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <a href="./leistungen.html#leistung2">Ansehen</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="leistungen-teaser-box leistungen-teaser-box-left">
+                            <h2>Leistung #3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <a href="./leistungen.html#leistung3">Ansehen</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="leistungen-teaser-box">
+                            <h2>Leistung #4</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <a href="./leistungen.html#leistung4">Ansehen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --- PROMO-VIDEO-BEREICH --- -->
+        <section id="promo-video">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="intro-container">
+                            <h1>Lernen Sie uns kennen</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="promo-video-container">
+                            <video class="promo-video" src="./src/mov/WEBDESIGN made simple - Trailer.mp4" controls>
+                                <p>Das Video kann leider nicht wiedergegeben werden.</p>
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --- SERVICES-BEREICH --- -->
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="intro-container">
+                            <h1>Unsere Services</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="service-box service-box-guenstig">
+                            <div class="service-icon service-icon-guenstig"></div>
+                            <h2>Günstige Angebote</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="service-box service-box-schnell">
+                            <div class="service-icon service-icon-schnell"></div>
+                            <h2>Schnelle Lieferung</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="service-box service-box-modern">
+                            <div class="service-icon service-icon-modern"></div>
+                            <h2>Modernes Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --- ÜBER-UNS-BEREICH --- -->
+        <section id="ueber-uns">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="intro-container">
+                            <h1>Das sind wir</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="ueber-uns-container clearfix">
+                            <div class="ueber-uns-infotext clearfix">
+                                <p>Lorem ipsum dolor amet squid brunch church-key ugh ethical scenester. Cardigan air plant fixie hoodie locavore humblebrag poke la croix copper mug kickstarter flannel woke. Deep v kogi four loko tumblr kickstarter chambray vice YOLO echo park mustache semiotics leggings health goth. Deep v synth meditation cronut locavore. Pork belly meditation shoreditch four loko pickled, ramps scenester hoodie pour-over. Hella raclette live-edge asymmetrical enamel pin kombucha yuccie cold-pressed poutine. Umami bespoke blog forage you probably haven't heard of them unicorn cred tousled small batch hot chicken shaman. Franzen viral hammock kogi. Synth chia raclette, palo santo pok pok direct trade hell of man bun portland wolf ugh succulents adaptogen offal cardigan. Tote bag stumptown raclette thundercats waistcoat celiac tacos +1 squid banh mi VHS chillwave migas banjo yr.</p>
+                                <p>Occupy lumbersexual neutra, offal four dollar toast chambray knausgaard. Before they sold out scenester lomo raw denim, thundercats distillery freegan street art af franzen letterpress. Chartreuse etsy taiyaki photo booth subway tile kinfolk. Wayfarers tumblr iPhone, synth fixie poutine cornhole blue bottle ramps biodiesel cloud bread artisan shoreditch sriracha VHS. Umami bespoke blog forage you probably haven't heard of them unicorn cred tousled small batch hot chicken shaman. Franzen viral hammock kogi. Synth chia raclette, palo santo pok pok direct trade hell of man bun portland wolf ugh succulents adaptogen offal cardigan. Tote bag stumptown raclette thundercats waistcoat celiac tacos +1 squid banh mi VHS chillwave migas banjo yr.</p>
+                                <p>Occupy lumbersexual neutra, offal four dollar toast chambray knausgaard. Before they sold out scenester lomo raw denim, thundercats distillery freegan street art af franzen letterpress. Chartreuse etsy taiyaki photo booth subway tile kinfolk. Wayfarers tumblr iPhone, synth fixie poutine cornhole blue bottle ramps biodiesel cloud bread artisan shoreditch sriracha VHS.Lorem ipsum dolor amet squid brunch church-key ugh ethical scenester. Cardigan air plant fixie hoodie locavore humblebrag poke la croix copper mug kickstarter flannel woke. Deep v kogi four loko tumblr kickstarter chambray vice YOLO echo park mustache semiotics leggings health goth. Deep v synth meditation cronut locavore. Pork belly meditation shoreditch four loko pickled, ramps scenester hoodie pour-over.</p>
+                            </div>
+                            <img class="logo-vertical" src="./src/img/webdesign-logo-vertical.png" alt="Das Logo von Webdesign made simple vertikal ausgerichtet">
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --- FOOTER --- -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                            <p>Webdesign made simple by Pascal Söntgerath (2022)</p>
+                            <a href="impressum.html">Impressum</a>        
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script defer>document.addEventListener("touchstart", function(){}, true);</script>
+        
+</body>
+</html>
